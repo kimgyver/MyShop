@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductCategoryManageController.cs" />
     <Compile Include="Controllers\ProductManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -240,6 +241,10 @@
     <Content Include="Views\ProductManage\Create.cshtml" />
     <Content Include="Views\ProductManage\Edit.cshtml" />
     <Content Include="Views\ProductManage\Delete.cshtml" />
+    <Content Include="Views\ProductCategoryManage\Index.cshtml" />
+    <Content Include="Views\ProductCategoryManage\Create.cshtml" />
+    <Content Include="Views\ProductCategoryManage\Edit.cshtml" />
+    <Content Include="Views\ProductCategoryManage\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
