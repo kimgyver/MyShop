@@ -11,7 +11,7 @@ namespace MyShop.DataAccess.SQL.Migrations
                 "dbo.ProductCategories",
                 c => new
                     {
-                        Id = c.String(nullable: false, maxLength: 128),\
+                        Id = c.String(nullable: false, maxLength: 128),
                         Category = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
